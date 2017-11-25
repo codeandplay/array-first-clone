@@ -18,7 +18,7 @@
   "scripts": {
     "test": "mocha"
   },
-  dependencies: {
+  "dependencies": {
     "array-slice": "^0.2.3",
     "is-number": "^2.1.0"
   },
@@ -27,7 +27,7 @@
     "mocha": "*",
     "should": "*"
   },
-  "keywords": {
+  "keywords": [
     "array",
     "fast",
     "first",
@@ -39,13 +39,13 @@
     "util",
     "utility",
     "utils"
-  },
+  ],
   "verb": {
     "related": {
       "list": [
         "array-last"
       ]
-    }
+    },
     "layout": "default",
     "plugins": [
       "gulp-format-md"

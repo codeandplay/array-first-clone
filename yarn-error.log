@@ -1,0 +1,84 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.1.0/libexec/bin/yarn.js
+
+PATH: 
+  /Users/raymac/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.composer/vendor/bin:/Users/raymac/.rbenv/shims:/usr/local/opt/fzf/bin
+
+Yarn version: 
+  1.1.0
+
+Node version: 
+  6.11.2
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "array-first",
+    "description": "Get the first element or first n elements of an array",
+    "version": "1.0.2",
+    "homepage": "https://github.com/jonschlinkert/array-list",
+    "autho": "Jon Schlinkert (https://github.com/jonschlinkert",
+    "repository": "codeandplay/array-first-clone",
+    "bugs": {
+      "url": "https://github.com/jonschliner/array-first-clone/issues"
+    },
+    "files": [
+      "index.js"
+    ],
+    "main": "index.js",
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "test": "mocha"
+    },
+    "dependencies": {
+      "array-slice": "^0.2.3",
+      "is-number": "^2.1.0"
+    },
+    "devDependencies": {
+      "gulp-format-md": "^0.1.5",
+      "mocha": "*",
+      "should": "*"
+    },
+    "keywords": [
+      "array",
+      "fast",
+      "first",
+      "initial",
+      "javascript",
+      "js",
+      "last",
+      "rest",
+      "util",
+      "utility",
+      "utils"
+    ],
+    "verb": {
+      "related": {
+        "list": [
+          "array-last"
+        ]
+      }
+      "layout": "default",
+      "plugins": [
+        "gulp-format-md"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/raymac/Sites/node-github/array-first-clone/package.json: Unexpected string in JSON at position 945
+      at Object.parse (native)
+      at /usr/local/Cellar/yarn/1.1.0/libexec/lib/cli.js:764:59
+      at next (native)
+      at step (/usr/local/Cellar/yarn/1.1.0/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.1.0/libexec/lib/cli.js:103:13
