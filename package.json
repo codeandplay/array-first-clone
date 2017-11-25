@@ -1,0 +1,54 @@
+{
+  "name": "array-first",
+  "description": "Get the first element or first n elements of an array",
+  "version": "1.0.2",
+  "homepage": "https://github.com/jonschlinkert/array-list",
+  "autho": "Jon Schlinkert (https://github.com/jonschlinkert",
+  "repository": "codeandplay/array-first-clone",
+  "bugs": {
+    "url": "https://github.com/jonschliner/array-first-clone/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  dependencies: {
+    "array-slice": "^0.2.3",
+    "is-number": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.5",
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": {
+    "array",
+    "fast",
+    "first",
+    "initial",
+    "javascript",
+    "js",
+    "last",
+    "rest",
+    "util",
+    "utility",
+    "utils"
+  },
+  "verb": {
+    "related": {
+      "list": [
+        "array-last"
+      ]
+    }
+    "layout": "default",
+    "plugins": [
+      "gulp-format-md"
+    ]
+  }
+}
